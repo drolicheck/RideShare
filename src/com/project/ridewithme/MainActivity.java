@@ -33,11 +33,10 @@ public class MainActivity extends Activity {
 		return true;
 	}
 	
-	public void loginAction(View v)
-	{
-		 Intent intent = new Intent(this, MyCarpoolActivity.class);
-		 startActivity(intent);
+	/** Called when the user clicks the Send button */
+	public void loginAction(View v) {
+	    Intent intent = new Intent(this, MyCarpoolActivity.class);
+	    startActivity(intent);
 	}
-	
 
 }
