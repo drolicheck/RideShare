@@ -39,5 +39,11 @@ public class MainActivity extends Activity {
 	   startActivity(intent);
 	 }
 	
+	public void loginAction(View v)
+	 {
+	   Intent intent = new Intent(this, MyCarpoolActivity.class);
+	   startActivity(intent);
+	 }
+	
 
 }

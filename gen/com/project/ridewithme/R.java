@@ -29,14 +29,13 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080013;
+        public static final int action_settings=0x7f080012;
         public static final int confirmPassword=0x7f080011;
         public static final int enterEmail=0x7f080004;
         public static final int enterPassword=0x7f080007;
         public static final int loginButton=0x7f080009;
         public static final int name=0x7f08000c;
         public static final int signUpButton=0x7f08000b;
-        public static final int signupButton=0x7f080012;
         public static final int tableLayout=0x7f080000;
         public static final int tableRow0=0x7f080001;
         public static final int tableRow1=0x7f080002;
