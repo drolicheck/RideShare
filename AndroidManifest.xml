@@ -26,6 +26,10 @@
             android:name="com.project.ridewithme.MyCarpoolActivity"
             android:label="@string/title_activity_my_carpool" >
         </activity>
+        <activity
+            android:name="com.project.ridewithme.SignUpActivity"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
     </application>
 
 </manifest>
