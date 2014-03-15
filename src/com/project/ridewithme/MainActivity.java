@@ -1,5 +1,3 @@
-// Is Git working?
-
 package com.project.ridewithme;
 
 import android.os.Bundle;
