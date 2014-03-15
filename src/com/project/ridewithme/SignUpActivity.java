@@ -25,7 +25,7 @@ public class SignUpActivity extends Activity {
 	
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_sign_up);
 	}
 
 	@Override
@@ -35,7 +35,7 @@ public class SignUpActivity extends Activity {
 		return true;
 	}
 
-	public void signUpAction(View v)
+	public void returnAction(View v)
 	 {
 	   Intent intent = new Intent(this, MainActivity.class);
 	   startActivity(intent);

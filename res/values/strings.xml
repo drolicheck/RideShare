@@ -16,7 +16,7 @@
     <string name="start">Start a Carpool</string>
     <string name="myCarpool">My Carpools: </string>
     <string name="title_activity_sign_up">SignUpActivity</string>
-    <string name="name">First Name</string>
+    <string name="name">First Name:</string>
     <string name="enterName">Enter Name:</string>
     <string name="signupButton">Sign Up</string>
     <string name="confirmPassword">Confirm Password:</string>

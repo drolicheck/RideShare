@@ -124,10 +124,10 @@
    </TableRow>
 
    <Button
-       android:id="@+id/signupButton"
+       android:id="@+id/signUpButton"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:onClick="signUpAction"
-       android:text="@string/signupButton" />
+       android:onClick="returnAction"
+       android:text="@string/signUpButton" />
 
 </TableLayout>

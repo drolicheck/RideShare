@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -32,7 +33,11 @@ public class MainActivity extends Activity {
 		return true;
 	}
 
-
+	public void signUpAction(View v)
+	 {
+	   Intent intent = new Intent(this, SignUpActivity.class);
+	   startActivity(intent);
+	 }
 	
 
 }
