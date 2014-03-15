@@ -1,0 +1,45 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+   android:id="@+id/tableLayout" android:layout_width="match_parent" 
+   android:layout_height="match_parent" android:padding="50dp" 
+   android:stretchColumns="*" android:background="@android:color/white">
+
+    
+
+   <TableRow android:id="@+id/tableRow0" 
+      android:layout_height="wrap_content" 
+      android:layout_width="match_parent">
+
+      <Button
+          android:id="@+id/loginButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:minWidth="200dp"
+          android:textSize=""
+          android:text="@string/look" >
+</Button>
+   </TableRow>
+   
+   <TableRow android:id="@+id/tableRow1" 
+      android:layout_height="wrap_content" 
+      android:layout_width="match_parent">
+
+      <Button
+          android:id="@+id/loginButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:minWidth="200dp"
+          android:text="@string/start" >
+</Button>
+   </TableRow>
+   
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:paddingTop="25dp"
+       android:text="@string/myCarpool"
+       android:textStyle="bold" 
+   	   android:textSize="16dp" />
+   
+</TableLayout>
