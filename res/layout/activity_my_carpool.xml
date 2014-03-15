@@ -15,7 +15,6 @@
           android:layout_height="wrap_content"
           android:layout_gravity="center_horizontal"
           android:minWidth="200dp"
-          android:textSize=""
           android:text="@string/look" >
 </Button>
    </TableRow>

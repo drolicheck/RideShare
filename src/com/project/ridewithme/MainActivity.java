@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -31,8 +32,12 @@ public class MainActivity extends Activity {
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
-
-
+	
+	public void loginAction(View v)
+	{
+		 Intent intent = new Intent(this, MyCarpoolActivity.class);
+		 startActivity(intent);
+	}
 	
 
 }

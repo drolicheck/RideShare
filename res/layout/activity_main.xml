@@ -58,6 +58,7 @@
          android:layout_height="wrap_content" 
          android:layout_width="wrap_content" 
          android:layout_gravity="center_horizontal" 
+         android:onClick="loginAction"
          android:text="@string/loginButton"></Button>
    </TableRow>
    
@@ -68,7 +69,8 @@
          android:layout_height="wrap_content" 
          android:layout_width="wrap_content" 
          android:layout_gravity="center_horizontal" 
-         android:text="@string/signUpButton"></Button>
+         android:text="@string/signUpButton"
+         android:onClick="onClick"></Button>
    </TableRow>
    		   
 
