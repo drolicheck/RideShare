@@ -20,7 +20,7 @@ public class SignUpActivity extends Activity {
 	
 	private EditText enterUsernames;
 	private EditText enterPassword;
-	private Button signupButton;
+	private Button signupButton1;
 	@Override
 	
 	protected void onCreate(Bundle savedInstanceState) {

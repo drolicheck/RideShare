@@ -119,15 +119,18 @@
    <TableRow
        android:id="@+id/tableRow10"
        android:layout_width="match_parent"
-       android:layout_height="wrap_content" >
+       android:layout_height="wrap_content" 
+       android:gravity="center">
 
+      <Button
+          android:id="@+id/signUpButton1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:onClick="returnAction"
+          android:text="@string/signUpButton"
+          android:width="200dp" >
+</Button>
    </TableRow>
-
-   <Button
-       android:id="@+id/signUpButton"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:onClick="returnAction"
-       android:text="@string/signUpButton" />
 
 </TableLayout>
