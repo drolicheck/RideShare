@@ -23,10 +23,10 @@ public class MyCarpoolActivity extends Activity {
 		
 		Intent intent;
 		intent = getIntent();
-		if(intent.getStringArrayExtra("reslut") != null)
+		if(intent.getStringExtra("result") != null)
 		{
 			TextView text = (TextView) findViewById(R.id.MyCarpool);
-			text.setText(intent.getExtras().getString("result"));
+			text.setText(intent.getStringExtra("result"));
 		}
 	}
 

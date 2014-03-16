@@ -74,9 +74,11 @@ public class MapActivity extends Activity implements OnInfoWindowClickListener{
 		public void onInfoWindowClick(Marker marker) {
 			title = marker.getTitle();
 			snippet = marker.getSnippet();
-			result = title + " " + snippet;
+			result = title.substring(0, 5)+ " " + snippet;
 			Intent intent = new Intent(getBaseContext(), MyCarpoolActivity.class);
-			intent.putExtra("result", result);
+			Bundle b = new Bundle();
+			b.putString("result", result);
+			intent.putExtras(b);
 			startActivity(intent);
 		}
 

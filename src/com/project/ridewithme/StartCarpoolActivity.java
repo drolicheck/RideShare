@@ -55,15 +55,19 @@ public class StartCarpoolActivity extends Activity{
 		// Apply the adapter to the spinner
 		spinnerCapacity.setAdapter(adapterCapacity);
 		
+		
+		
 	}
 	
 	
-	//public void createAction(View v)
-	 //{
-	   //Intent intent = new Intent(this, MyCarpoolActivity.class);
-	   //intent.putExtra(name, value)
-	   //startActivity(intent);
-	 //}
+	public void createAction(View v)
+	{
+	   Intent intent = new Intent(this, MyCarpoolActivity.class);
+	//   Bundle b = new Bundle();
+	//   b = toBundle(spinnerCapacity.getSelectedItem().toString());
+	 //  intent.putExtra(name, value)
+	   startActivity(intent);
+	}
 	
 }
 
