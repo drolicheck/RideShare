@@ -24,13 +24,19 @@ public class MapActivity extends Activity {
 
         LatLng sydney = new LatLng(-33.867, 151.206);
 
-//        map.setMyLocationEnabled(true);
-//        map.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, 13));
-//
-//        map.addMarker(new MarkerOptions()
-//                .title("Sydney")
-//                .snippet("The most populous city in Australia.")
-//                .position(sydney));
+        map.setMyLocationEnabled(true);
+        map.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, 13));
+        map.addMarker(new MarkerOptions()
+                .title("Sydney")
+                .snippet("The most populous city in Australia.")
+                .position(sydney));
+        
+        LatLng somewhere = new LatLng(-30, 150);
+        
+        map.addMarker(new MarkerOptions()
+        		.title("Twin")
+        		.snippet("What you do?")
+        		.position(somewhere));
     }
 
   @Override
