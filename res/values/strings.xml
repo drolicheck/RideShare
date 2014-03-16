@@ -30,5 +30,125 @@
     <string name="pickupTag">Pick Up Location:</string>
     <string name ="zipCodeTag">Enter Zip Code</string>
     <string name ="dropoffTag">Drop Off Location:</string>
+    
+    <string name ="createCarpool">Create Carpool</string>
+    
+    <string name ="pickupHintTime">Pick Up Time</string>
+    <string name ="dropoffHintTime">Drop Off Time</string>
+    <string name ="carCapacityHint">Car Capacity</string>
+    
+    
+    
+    <string-array name="time_array">
+        <item>12:00AM</item>
+        <item>12:15AM</item>
+        <item>12:30AM</item>
+        <item>12:45AM</item>
+        <item>01:00AM</item>
+        <item>01:15AM</item>
+        <item>01:30AM</item>
+        <item>01:45AM</item>
+        <item>02:00AM</item>
+        <item>02:15AM</item>
+        <item>02:30AM</item>
+        <item>02:45AM</item>
+        <item>03:00AM</item>
+        <item>03:15AM</item>
+        <item>03:30AM</item>
+        <item>03:45AM</item>
+        <item>04:00AM</item>
+        <item>04:15AM</item>
+        <item>04:30AM</item>
+        <item>04:45AM</item>
+        <item>05:00AM</item>
+        <item>05:15AM</item>
+        <item>05:30AM</item>
+        <item>05:45AM</item>
+        <item>06:00AM</item>
+        <item>06:15AM</item>
+        <item>06:30AM</item>
+        <item>06:45AM</item>
+        <item>07:00AM</item>
+        <item>07:15AM</item>
+        <item>07:30AM</item>
+        <item>07:45AM</item>
+        <item>08:00AM</item>
+        <item>08:15AM</item>
+        <item>08:30AM</item>
+        <item>08:45AM</item>
+        <item>09:00AM</item>
+        <item>09:15AM</item>
+        <item>09:30AM</item>
+        <item>09:45AM</item>
+        <item>10:00AM</item>
+        <item>10:15AM</item>
+        <item>10:30AM</item>
+        <item>10:45AM</item>
+        <item>11:00AM</item>
+        <item>11:15AM</item>
+        <item>11:30AM</item>
+        <item>11:45AM</item>
+        <item>12:00PM</item>
+        <item>12:15PM</item>
+        <item>12:30PM</item>
+        <item>12:45PM</item>
+        <item>01:00PM</item>
+        <item>01:15PM</item>
+        <item>01:30PM</item>
+        <item>01:45PM</item>
+        <item>02:00PM</item>
+        <item>02:15PM</item>
+        <item>02:30PM</item>
+        <item>02:45PM</item>
+        <item>03:00PM</item>
+        <item>03:15PM</item>
+        <item>03:30PM</item>
+        <item>03:45PM</item>
+        <item>04:00PM</item>
+        <item>04:15PM</item>
+        <item>04:30PM</item>
+        <item>04:45PM</item>
+        <item>05:00PM</item>
+        <item>05:15PM</item>
+        <item>05:30PM</item>
+        <item>05:45PM</item>
+        <item>06:00PM</item>
+        <item>06:15PM</item>
+        <item>06:30PM</item>
+        <item>06:45PM</item>
+        <item>07:00PM</item>
+        <item>07:15PM</item>
+        <item>07:30PM</item>
+        <item>07:45PM</item>
+        <item>08:00PM</item>
+        <item>08:15PM</item>
+        <item>08:30PM</item>
+        <item>08:45PM</item>
+        <item>09:00PM</item>
+        <item>09:15PM</item>
+        <item>09:30PM</item>
+        <item>09:45PM</item>
+        <item>10:00PM</item>
+        <item>10:15PM</item>
+        <item>10:30PM</item>
+        <item>10:45PM</item>
+        <item>11:00PM</item>
+        <item>11:15PM</item>
+        <item>11:30PM</item>
+        <item>11:45PM</item>
+        
+    </string-array>
+    
+    <string-array name="car_capacity_array">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
 
 </resources>
