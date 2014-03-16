@@ -28,6 +28,11 @@ public class MyCarpoolActivity extends Activity {
 			TextView text = (TextView) findViewById(R.id.MyCarpool);
 			text.setText(intent.getStringExtra("result"));
 		}
+		else if(intent.getStringExtra("allText") != null)
+		{
+			TextView text = (TextView) findViewById(R.id.MyCarpool);
+			text.setText(intent.getStringExtra("allText"));
+		}
 	}
 
 	@Override
