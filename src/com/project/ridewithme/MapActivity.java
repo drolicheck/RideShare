@@ -28,24 +28,32 @@ public class MapActivity extends Activity {
         map.addMarker(new MarkerOptions()
                 .title("Jill")
                 .snippet("Pebble Beach to Monterey")
+                .icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_launcher))
+                .anchor(0.0f, 1.0f) // Anchors the marker on the bottom left
                 .position(pebbleBeach));
         
         LatLng monterey = new LatLng(36.600, -121.90000);
         map.addMarker(new MarkerOptions()
         		.title("Marco")
         		.snippet("Monterey to Moss Landing")
+        		.icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_launcher))
+                .anchor(0.0f, 1.0f) // Anchors the marker on the bottom left
         		.position(monterey));
         
         LatLng santaCruz = new LatLng(36.9720, -122.0263);
         map.addMarker(new MarkerOptions()
         		.title("Bob")
         		.snippet("Santa Cruz to Seaside")
+        		.icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_launcher))
+                .anchor(0.0f, 1.0f) // Anchors the marker on the bottom left
         		.position(santaCruz));
         
         LatLng salinas = new LatLng(36.6778, -121.6556);
         map.addMarker(new MarkerOptions()
         		.title("Dan")
         		.snippet("Monterey to Moss Landing")
+        		.icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_launcher))
+                .anchor(0.0f, 1.0f) // Anchors the marker on the bottom left
         		.position(salinas));
     }
 

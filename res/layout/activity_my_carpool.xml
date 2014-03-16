@@ -3,7 +3,11 @@
    android:layout_height="match_parent" android:padding="50dp" 
    android:stretchColumns="*" android:background="@android:color/white">
 
-    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tamaclogo" />
 
    <TableRow android:id="@+id/tableRow0" 
       android:layout_height="wrap_content" 
