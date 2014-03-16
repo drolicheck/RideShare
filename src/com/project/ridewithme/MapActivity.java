@@ -22,21 +22,31 @@ public class MapActivity extends Activity {
         GoogleMap map = ((MapFragment) getFragmentManager()
                 .findFragmentById(R.id.map)).getMap();
 
-        LatLng sydney = new LatLng(-33.867, 151.206);
-
+        LatLng pebbleBeach = new LatLng(36.5908, 121.9460);
         map.setMyLocationEnabled(true);
-        map.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, 13));
+        map.moveCamera(CameraUpdateFactory.newLatLngZoom(pebbleBeach, 13));
         map.addMarker(new MarkerOptions()
-                .title("Sydney")
-                .snippet("The most populous city in Australia.")
-                .position(sydney));
+                .title("Jill")
+                .snippet("Pebble Beach to Monterey")
+                .position(pebbleBeach));
         
-        LatLng somewhere = new LatLng(-30, 150);
-        
+        LatLng monterey = new LatLng(36.600, 121.90000);
         map.addMarker(new MarkerOptions()
-        		.title("Twin")
-        		.snippet("What you do?")
-        		.position(somewhere));
+        		.title("Marco")
+        		.snippet("Monterey to Moss Landing")
+        		.position(monterey));
+        
+        LatLng santaCruz = new LatLng(36.9720, 122.0263);
+        map.addMarker(new MarkerOptions()
+        		.title("Bob")
+        		.snippet("Santa Cruz to Seaside")
+        		.position(santaCruz));
+        
+        LatLng salinas = new LatLng(36.6778, 121.6556);
+        map.addMarker(new MarkerOptions()
+        		.title("Dan")
+        		.snippet("Monterey to Moss Landing")
+        		.position(salinas));
     }
 
   @Override
