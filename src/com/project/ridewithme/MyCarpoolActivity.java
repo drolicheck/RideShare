@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -32,6 +33,10 @@ public class MyCarpoolActivity extends Activity {
 	}
 
 
-	
+	public void startAction(View v)
+	 {
+	   Intent intent = new Intent(this, StartCarpoolActivity.class);
+	   startActivity(intent);
+	 }
 
 }
