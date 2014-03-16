@@ -22,7 +22,7 @@ public class MapActivity extends Activity {
         GoogleMap map = ((MapFragment) getFragmentManager()
                 .findFragmentById(R.id.map)).getMap();
 
-        LatLng pebbleBeach = new LatLng(36.5908, 121.9460);
+        LatLng pebbleBeach = new LatLng(36.5908, -121.9460);
         map.setMyLocationEnabled(true);
         map.moveCamera(CameraUpdateFactory.newLatLngZoom(pebbleBeach, 13));
         map.addMarker(new MarkerOptions()
@@ -30,19 +30,19 @@ public class MapActivity extends Activity {
                 .snippet("Pebble Beach to Monterey")
                 .position(pebbleBeach));
         
-        LatLng monterey = new LatLng(36.600, 121.90000);
+        LatLng monterey = new LatLng(36.600, -121.90000);
         map.addMarker(new MarkerOptions()
         		.title("Marco")
         		.snippet("Monterey to Moss Landing")
         		.position(monterey));
         
-        LatLng santaCruz = new LatLng(36.9720, 122.0263);
+        LatLng santaCruz = new LatLng(36.9720, -122.0263);
         map.addMarker(new MarkerOptions()
         		.title("Bob")
         		.snippet("Santa Cruz to Seaside")
         		.position(santaCruz));
         
-        LatLng salinas = new LatLng(36.6778, 121.6556);
+        LatLng salinas = new LatLng(36.6778, -121.6556);
         map.addMarker(new MarkerOptions()
         		.title("Dan")
         		.snippet("Monterey to Moss Landing")
