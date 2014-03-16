@@ -5,6 +5,7 @@
     <string name="action_settings">Settings</string>
     <string name="title">Ride With Me!</string>
     <string name="email">Email: </string>
+    <string name ="taxTag">Tax Information</string>
     
     
     <string name="password">Password: </string>
@@ -150,7 +151,29 @@
         <item>9</item>
         <item>10</item>
     </string-array>
+        <string name="results">results</string>
+        
+        
+        <string name ="taxIncentives">Tax Incentives</string>
+        <string name ="taxIncentivesInfo">The federal tax code allows employers to offer tax free benefits for the purposes of taking transit, vanpooling and 
 
+paying for parking - Section 132 (f) of the Internal Revenue Code. These “Qualified Transportation Fringe Benefits” 
+
+are deducted from corporate gross income for taxes paid by the employer. Both employers and employees save on 
+
+taxes because neither pays federal income or payroll taxes on these benefits.</string>
+	<string name ="taxLimits">There are limits on the value that are regarded as pre-tax or tax free</string>
+	<string name ="taxLimitsInfo1">- As of January 1, 2010 up to $230 is excludable from gross income per month for vanpooling, transit and parking.</string>
+	<string name ="taxLimitsInfo2">- The employer can provide parking benefit with transportation benefits. As long as total does not exceed $460</string>
+	<string name ="taxLimitsInfo3">- Up to $20 is allowed for bicycling expenditures</string>
+	<string name ="taxLimitsInfo4">- Any amount exceeding ceiling is income</string>
+	<string name ="taxBenefits">Employee Benefit and Tax Reporting</string>
+	<string name ="taxBenefitsInfo1">- Qualified transportation fringe benefits that do not exceed statutory limit are not wages for Federal Insurance 
+
+Contributions ACT (FICA), Federal Unemployment Tax ACT (FUTA) and federal income tax withholding</string>
+	<string name ="taxBenefitsInfo2">- The total amount is not reported on the employees’ W-2 form</string>
+	
+	
 </resources>
 
 

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   <TableRow
+       android:id="@+id/tableRow0"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:gravity="center" >
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/taxIncentives"
+           android:textSize="20sp" />
+
+   </TableRow>
+   
+   <TableRow android:id="@+id/tableRow1" 
+      android:layout_height="wrap_content" 
+      android:layout_width="match_parent">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/taxIncentivesInfo"
+          android:textSize="13sp" />
+
+   </TableRow>
+   
+   <TableRow android:id="@+id/tableRow2" 
+      android:layout_height="wrap_content" 
+      android:layout_width="match_parent">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="@string/taxLimits"
+          android:textSize="20sp" />
+
+   </TableRow>
+   
+   <TableRow android:id="@+id/tableRow3" 
+      android:layout_height="wrap_content" 
+      android:layout_width="match_parent">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/taxLimitsInfo1"
+          android:textSize="13sp" />
+
+   </TableRow>
+   
+   <TableRow android:id="@+id/tableRow4" 
+      android:layout_height="wrap_content" 
+      android:layout_width="match_parent">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/taxLimitsInfo2"
+          android:textSize="13sp" />
+
+   </TableRow>
+   
+   <TableRow android:id="@+id/tableRow5" 
+      android:layout_height="wrap_content" 
+      android:layout_width="match_parent">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/taxLimitsInfo3"
+          android:textSize="13sp" />
+
+   </TableRow>
+   
+   <TableRow android:id="@+id/tableRow6" 
+      android:layout_height="wrap_content" 
+      android:layout_width="match_parent">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/taxLimitsInfo4"
+          android:textSize="13sp" />
+
+   </TableRow>
+   
+   <TableRow android:id="@+id/tableRow7" 
+      android:layout_height="wrap_content" 
+      android:layout_width="match_parent">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="@string/taxBenefits"
+          android:textSize="20sp" />
+
+   </TableRow>
+   
+   <TableRow android:id="@+id/tableRow8" 
+      android:layout_height="wrap_content" 
+      android:layout_width="match_parent">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/taxBenefitsInfo1"
+          android:textSize="13sp" />
+
+   </TableRow>
+   
+   <TableRow android:id="@+id/tableRow9" 
+      android:layout_height="wrap_content" 
+      android:layout_width="match_parent">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/taxBenefitsInfo2"
+          android:textSize="13sp" />
+
+   </TableRow>
+
+</LinearLayout>

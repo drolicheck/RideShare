@@ -19,6 +19,7 @@ public class MainActivity extends Activity {
 	private EditText enterPassword;
 	private Button loginButton;
 	private Button signUp;
+	private Button taxButton;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +41,10 @@ public class MainActivity extends Activity {
 	}
 	public void signUpAction(View v) {
 	    Intent intent = new Intent(this, SignUpActivity.class);
+	    startActivity(intent);
+	}
+	public void taxAction(View v) {
+	    Intent intent = new Intent(this, taxActivity.class);
 	    startActivity(intent);
 	}
 

@@ -12,17 +12,22 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class MyCarpoolActivity extends Activity {
-	
-	private EditText myCarpool;
-	private Button look;
-	private Button start;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_my_carpool);
+		
+		Intent intent;
+		intent = getIntent();
+		if(intent.getStringArrayExtra("reslut") != null)
+		{
+			TextView text = (TextView) findViewById(R.id.MyCarpool);
+			text.setText(intent.getExtras().getString("result"));
+		}
 	}
 
 	@Override

@@ -85,4 +85,12 @@
        android:onClick="signUpAction"
        android:text="@string/signUpButton" />
 
+   <Button
+       android:id="@+id/taxButton"
+       style="?android:attr/buttonStyleSmall"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:onClick="taxAction"
+       android:text="@string/taxTag" />
+
 </TableLayout>
