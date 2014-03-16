@@ -38,5 +38,9 @@ public class MainActivity extends Activity {
 	    Intent intent = new Intent(this, MyCarpoolActivity.class);
 	    startActivity(intent);
 	}
+	public void signUpAction(View v) {
+	    Intent intent = new Intent(this, SignUpActivity.class);
+	    startActivity(intent);
+	}
 
 }

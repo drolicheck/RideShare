@@ -1,0 +1,125 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+   android:id="@+id/tableLayout" android:layout_width="match_parent" 
+   android:layout_height="match_parent" android:padding="5dp" 
+   android:stretchColumns="*" android:background="@android:color/white">
+
+    
+    <!-- tableRow0 -->
+      <TableRow
+       android:id="@+id/tableRow0"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center" >
+
+      <TextView
+       		 android:layout_width="wrap_content"
+       		 android:layout_height="wrap_content"
+       		 android:layout_gravity="center"
+       		 android:textSize="24sp"
+      		 android:text="@string/pickupTag" />
+   </TableRow>
+   
+      
+   <TableRow android:id="@+id/tableRow1" 
+      android:layout_height="wrap_content" 
+      android:layout_width="match_parent">
+      <EditText android:layout_width="match_parent" 
+         android:layout_height="wrap_content" android:layout_span="2" 
+         android:inputType="text" android:id="@+id/pickupTextBox"  
+         android:hint="@string/zipCodeTag" 
+         android:imeOptions="actionNext">
+      </EditText>
+   </TableRow>
+   
+	<TableRow
+       android:id="@+id/tableRow2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center" >
+
+      <TextView
+       		 android:layout_width="wrap_content"
+       		 android:layout_height="wrap_content"
+       		 android:layout_gravity="center"
+       		 android:textSize="24sp"
+      		 android:text="@string/pickupHintTime" />
+   </TableRow>
+   <Spinner
+       android:id="@+id/pickupTimeSpinner"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:hint="@string/pickupHintTime"  />
+   
+   <TableRow
+       android:id="@+id/tableRow2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center" >
+
+      <TextView
+       		 android:layout_width="wrap_content"
+       		 android:layout_height="wrap_content"
+       		 android:layout_gravity="center"
+       		 android:textSize="24sp"
+      		 android:text="@string/dropoffTag" />
+   </TableRow>
+   
+      
+   <TableRow android:id="@+id/tableRow3" 
+      android:layout_height="wrap_content" 
+      android:layout_width="match_parent">
+      <EditText android:layout_width="match_parent" 
+         android:layout_height="wrap_content" android:layout_span="2" 
+         android:inputType="text" android:id="@+id/dropoffTextBox"  
+         android:hint="@string/zipCodeTag" 
+         android:imeOptions="actionNext">
+      </EditText>
+   </TableRow>
+
+   <TableRow
+       android:id="@+id/tableRow2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center" >
+
+      <TextView
+       		 android:layout_width="wrap_content"
+       		 android:layout_height="wrap_content"
+       		 android:layout_gravity="center"
+       		 android:textSize="24sp"
+      		 android:text="@string/dropoffHintTime" />
+   </TableRow>
+   <Spinner
+       android:id="@+id/dropoffTimeSpinner"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:hint="@string/dropoffHintTime"  />
+
+   <TableRow
+       android:id="@+id/tableRow2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center" >
+
+      <TextView
+       		 android:layout_width="wrap_content"
+       		 android:layout_height="wrap_content"
+       		 android:layout_gravity="center"
+       		 android:textSize="24sp"
+      		 android:text="@string/carCapacityHint" />
+   </TableRow>
+   <Spinner
+       android:id="@+id/carCapacitySpinner"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:hint="@string/carCapacityHint"  />
+
+   <Button
+       android:id="@+id/createCarpoolButton"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:onClick="createAction"
+       android:text="@string/createCarpool" />
+
+</TableLayout>
+

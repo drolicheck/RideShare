@@ -8,6 +8,10 @@
 package com.project.ridewithme;
 
 public final class R {
+    public static final class array {
+        public static final int car_capacity_array=0x7f090001;
+        public static final int time_array=0x7f090000;
+    }
     public static final class attr {
         /** 
     The size of the ad. It must be one of BANNER, FULL_BANNER, LEADERBOARD,
@@ -224,20 +228,31 @@ containing a value of this type.
         public static final int ic_plusone_small_off_client=0x7f02001a;
         public static final int ic_plusone_standard_off_client=0x7f02001b;
         public static final int ic_plusone_tall_off_client=0x7f02001c;
+        public static final int tamc_logo=0x7f02001d;
+        public static final int tamc_logo_updated=0x7f02001e;
     }
     public static final class id {
         public static final int Startbutton=0x7f050013;
-        public static final int action_settings=0x7f050014;
+        public static final int action_settings=0x7f050021;
+        public static final int carCapacitySpinner=0x7f05001f;
+        public static final int confirmPassword=0x7f050019;
+        public static final int createCarpoolButton=0x7f050020;
+        public static final int dropoffTextBox=0x7f05001d;
+        public static final int dropoffTimeSpinner=0x7f05001e;
         public static final int enterEmail=0x7f050009;
         public static final int enterPassword=0x7f05000c;
         public static final int hybrid=0x7f050004;
         public static final int loginButton=0x7f05000e;
         public static final int lookButton=0x7f050012;
         public static final int map=0x7f050011;
+        public static final int name=0x7f050014;
         public static final int none=0x7f050000;
         public static final int normal=0x7f050001;
+        public static final int pickupTextBox=0x7f05001b;
+        public static final int pickupTimeSpinner=0x7f05001c;
         public static final int satellite=0x7f050002;
         public static final int signUpButton=0x7f050010;
+        public static final int signUpButton1=0x7f05001a;
         public static final int tableLayout=0x7f050005;
         public static final int tableRow0=0x7f050006;
         public static final int tableRow1=0x7f050007;
@@ -246,6 +261,10 @@ containing a value of this type.
         public static final int tableRow3=0x7f05000a;
         public static final int tableRow4=0x7f05000b;
         public static final int tableRow5=0x7f05000d;
+        public static final int tableRow6=0x7f050015;
+        public static final int tableRow7=0x7f050016;
+        public static final int tableRow8=0x7f050017;
+        public static final int tableRow9=0x7f050018;
         public static final int terrain=0x7f050003;
     }
     public static final class integer {
@@ -255,11 +274,13 @@ containing a value of this type.
         public static final int activity_main=0x7f030000;
         public static final int activity_map_activity=0x7f030001;
         public static final int activity_my_carpool=0x7f030002;
-        public static final int fragment_my_carpool=0x7f030003;
+        public static final int activity_sign_up=0x7f030003;
+        public static final int activity_start_carpool=0x7f030004;
+        public static final int fragment_my_carpool=0x7f030005;
     }
     public static final class menu {
-        public static final int main=0x7f0a0000;
-        public static final int my_carpool=0x7f0a0001;
+        public static final int main=0x7f0b0000;
+        public static final int my_carpool=0x7f0b0001;
     }
     public static final class string {
         public static final int action_settings=0x7f06001b;
@@ -287,6 +308,7 @@ containing a value of this type.
         [CHAR LIMIT=70] 
          */
         public static final int auth_client_using_bad_version_title=0x7f060014;
+        public static final int carCapacityHint=0x7f060033;
         /**  Button in confirmation dialog to enable Google Play services.  Clicking it
         will direct user to application settings of Google Play services where they
         can enable it [CHAR LIMIT=40] 
@@ -358,18 +380,29 @@ containing a value of this type.
         /**  Long form sign-in button text [CHAR LIMIT=30] 
          */
         public static final int common_signin_button_text_long=0x7f060013;
+        public static final int confirmPassword=0x7f06002c;
+        public static final int createCarpool=0x7f060030;
+        public static final int dropoffHintTime=0x7f060032;
+        public static final int dropoffTag=0x7f06002f;
         public static final int email=0x7f06001d;
+        public static final int enterName=0x7f06002a;
         public static final int hello_world=0x7f060024;
         public static final int loginButton=0x7f060021;
         public static final int loginEmail=0x7f06001f;
         public static final int loginPassword=0x7f060020;
         public static final int look=0x7f060025;
         public static final int myCarpool=0x7f060027;
+        public static final int name=0x7f060029;
         public static final int password=0x7f06001e;
+        public static final int pickupHintTime=0x7f060031;
+        public static final int pickupTag=0x7f06002d;
         public static final int signUpButton=0x7f060022;
+        public static final int signupButton=0x7f06002b;
         public static final int start=0x7f060026;
         public static final int title=0x7f06001c;
         public static final int title_activity_my_carpool=0x7f060023;
+        public static final int title_activity_sign_up=0x7f060028;
+        public static final int zipCodeTag=0x7f06002e;
     }
     public static final class style {
         /** 
@@ -393,11 +426,11 @@ containing a value of this type.
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f090000;
+        public static final int AppBaseTheme=0x7f0a0000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f090001;
+        public static final int AppTheme=0x7f0a0001;
     }
     public static final class styleable {
         /** Attributes that can be used with a AdsAttrs.

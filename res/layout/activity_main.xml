@@ -8,10 +8,13 @@
    <TableRow android:id="@+id/tableRow0" 
       android:layout_height="wrap_content" 
       android:layout_width="match_parent">
+
       <TextView
-       		 android:layout_width="wrap_content"
-       		 android:layout_height="wrap_content"
-      		 android:text="@string/title" />
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="@string/title" />
+
    </TableRow>
    
    <TableRow android:id="@+id/tableRow1" 
@@ -51,27 +54,35 @@
          android:imeOptions="actionNext">
       </EditText>
    </TableRow>
-   <TableRow android:id="@+id/tableRow5" 
-      android:layout_height="wrap_content" 
-      android:layout_width="match_parent">
-      <Button android:id="@+id/loginButton" 
-         android:layout_height="wrap_content" 
-         android:layout_width="wrap_content" 
-         android:layout_gravity="center_horizontal" 
-         android:onClick="loginAction"
-         android:text="@string/loginButton"></Button>
+
+   <TableRow
+       android:id="@+id/tableRow5"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center" >
+
    </TableRow>
+
+   <Button
+       android:id="@+id/loginButton"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:onClick="loginAction"
+       android:text="@string/loginButton" />
    
    <TableRow android:id="@+id/tableRow10" 
       android:layout_height="wrap_content" 
       android:layout_width="match_parent">
-      <Button android:id="@+id/signUpButton" 
-         android:layout_height="wrap_content" 
-         android:layout_width="wrap_content" 
-         android:layout_gravity="center_horizontal" 
-         android:text="@string/signUpButton"
-         android:onClick="loginAction"></Button>
+
    </TableRow>
-   		   
+
+   <Button
+       android:id="@+id/signUpButton"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:onClick="signUpAction"
+       android:text="@string/signUpButton" />
 
 </TableLayout>

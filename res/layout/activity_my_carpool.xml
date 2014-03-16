@@ -30,6 +30,7 @@
           android:layout_height="wrap_content"
           android:layout_gravity="center_horizontal"
           android:minWidth="200dp"
+          android:onClick="startAction"
           android:text="@string/start" >
 </Button>
    </TableRow>
