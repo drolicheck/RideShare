@@ -19,8 +19,8 @@ public class MainActivity extends Activity {
 	private EditText enterPassword;
 	private Button loginButton;
 	private Button signUp;
-	@Override
 	
+	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);

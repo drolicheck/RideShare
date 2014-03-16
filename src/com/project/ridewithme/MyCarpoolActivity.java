@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -17,8 +18,8 @@ public class MyCarpoolActivity extends Activity {
 	private EditText myCarpool;
 	private Button look;
 	private Button start;
-	@Override
 	
+	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_my_carpool);
@@ -30,7 +31,12 @@ public class MyCarpoolActivity extends Activity {
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
-
+	
+	/** Called when the user clicks the Send button */
+	public void MapAction(View v) {
+	    Intent intent = new Intent(this, MapActivity.class);
+	    startActivity(intent);
+	}
 
 	
 
